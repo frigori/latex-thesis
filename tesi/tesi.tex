@@ -170,58 +170,6 @@ Dimostrare come l'integrazione tra i dati di Eye Tracking e gli algoritmi di Int
 \section{Struttura dell'elaborato}
 Breve riassunto dei capitoli successivi.
 
-\subsection{Elenchi puntati}
-\begin{itemize}
-    \item bla
-    \begin{itemize}
-        \item sub-bla
-    \end{itemize}
-    \item bla
-\end{itemize}
-
-\subsection{Elenchi numerati}
-\begin{enumerate}
-    \item bla1
-    \begin{enumerate}
-        \item sub bla 1
-        \item sub bla 2
-    \end{enumerate}
-    \item bla 2
-\end{enumerate}
-
-\subsection{Mix}
-\begin{itemize}
-    \item bla
-    \begin{enumerate}
-        \item sub bla 1
-    \end{enumerate}
-    \item bla
-\end{itemize}
-
-\begin{enumerate}
-    \item bla 1
-    \begin{itemize}
-        \item sub bla
-    \end{itemize}
-    \item bla 2
-\end{enumerate}
-
-\section{Font}
-\textbf{bla bla bla}\\
-\textit{Ancora bla bla bla}\\
-\texttt{bla bla ma in un'altra riga}
-
-\subsection{Sottosezione 1 - parskip}
-Grazie al package parskip se vai a capo nel .tex lasciando una riga
-
-ti mette un po' di spazio anche nel pdf.\\
-Attenzione però che ogni tanto questa feature fa lasciare troppo spazio tra testo e immagini / tabelle, se capita prova a togliere un po' di righe vuote. \\
-Senza questo pacchetto, una doppia new line (\texttt{$\backslash n\backslash n$}) crea un nuovo paragrafo, la cui prima riga viene leggermente indentata (un comportamento indesiderato se vieni da altri strumenti di stesura). Eventualmente, si può usare per allungare di qualche pagina alla tesi, evitando di abusarne.
-\subsection{Sottosezione 2 - capitoli}
-I capitoli iniziano sempre in una pagina dispari, quindi a volte vedrai delle pagine bianche tra uno e l'altro
-\subsubsection{Sottosottosezione 1} \label{subsub:bla}
-bla bla bla
-
 \chapter{Background Clinico e Tecnologico}
 \section{Il Disturbo dello Spettro Autistico (ASD)}
 Definizione clinica, sintomi principali (deficit di interazione sociale e comunicazione) e criteri diagnostici (es. DSM-5, ADOS, CARS)
@@ -336,6 +284,57 @@ Infine hai quelle con begin equation (che vengono numerate):
 \end{equation}
 
 Anche le equazioni possono avere label.
+\subsection{Elenchi puntati}
+\begin{itemize}
+    \item bla
+    \begin{itemize}
+        \item sub-bla
+    \end{itemize}
+    \item bla
+\end{itemize}
+
+\subsection{Elenchi numerati}
+\begin{enumerate}
+    \item bla1
+    \begin{enumerate}
+        \item sub bla 1
+        \item sub bla 2
+    \end{enumerate}
+    \item bla 2
+\end{enumerate}
+
+\subsection{Mix}
+\begin{itemize}
+    \item bla
+    \begin{enumerate}
+        \item sub bla 1
+    \end{enumerate}
+    \item bla
+\end{itemize}
+
+\begin{enumerate}
+    \item bla 1
+    \begin{itemize}
+        \item sub bla
+    \end{itemize}
+    \item bla 2
+\end{enumerate}
+
+\section{Font}
+\textbf{bla bla bla}\\
+\textit{Ancora bla bla bla}\\
+\texttt{bla bla ma in un'altra riga}
+
+\subsection{Sottosezione 1 - parskip}
+Grazie al package parskip se vai a capo nel .tex lasciando una riga
+
+ti mette un po' di spazio anche nel pdf.\\
+Attenzione però che ogni tanto questa feature fa lasciare troppo spazio tra testo e immagini / tabelle, se capita prova a togliere un po' di righe vuote. \\
+Senza questo pacchetto, una doppia new line (\texttt{$\backslash n\backslash n$}) crea un nuovo paragrafo, la cui prima riga viene leggermente indentata (un comportamento indesiderato se vieni da altri strumenti di stesura). Eventualmente, si può usare per allungare di qualche pagina alla tesi, evitando di abusarne.
+\subsection{Sottosezione 2 - capitoli}
+I capitoli iniziano sempre in una pagina dispari, quindi a volte vedrai delle pagine bianche tra uno e l'altro
+\subsubsection{Sottosottosezione 1} \label{subsub:bla}
+bla bla bla
 \section{url e footnote}
 per mettere un link usa url: \url{wikipedia.it}
 
