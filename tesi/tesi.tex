@@ -181,6 +181,30 @@ Differenze nei pattern di sguardo (minore attenzione ai volti/stimoli sociali, m
 \section{Introduzione al Machine Learning e Deep Learning}
 Panoramica sugli algoritmi supervisionati e sulle reti neurali per il riconoscimento di pattern
 
+\chapter{Stato dell'Arte}
+\section{L'applicazione del ML/DL ai dati di Eye Tracking per l'ASD}
+Revisione degli studi recenti e dei tassi di accuratezza (variabili dal 55.5\% al 99\%)
+\section{Impatto della tipologia di stimoli}
+Analisi delle differenze di accuratezza in base agli stimoli utilizzati (stimoli sociali vs. non sociali; statici come immagini vs. dinamici come video; attivi vs. passivi)
+\section{Modelli di classificazione utilizzati in letteratura}
+Confronto tra metodi tradizionali (SVM, Random Forest, KNN) e approcci di Deep Learning (CNN, LSTM, Reti Ibride CNN-LSTM)
+
+\chapter{Metodologia e Preparazione dei Dati}
+\section{Descrizione del Dataset}
+Raccolta dati da bambini con diagnosi di ASD (es. tramite CARS) e bambini a sviluppo tipico (TD). Analisi demografica (età, sesso)
+\section{Pre-processing dei Dati}
+Gestione dei dati mancanti (NaN), del rumore (es. battiti di ciglia) e dei movimenti rapidi (filtri gaussiani, DBScan per la classificazione dei cluster)
+Codifica delle variabili e bilanciamento delle classi (Data Augmentation)
+\section{Estrazione e Selezione delle Features (Feature Engineering)}
+Riduzione della dimensionalità tramite PCA (Principal Component Analysis) o Mutual Information
+Trasformazione degli Scanpath in rappresentazioni visive 2D o estrazione di coordinate spaziali (X, Y) e dinamiche temporali (velocità, accelerazione)
+
+\chapter{Sviluppo del Modello di Classificazione}
+\section{Metriche di Valutazione}
+\section{Prestazioni dei modelli a confronto}
+\section{Analisi visiva dei risultati}
+\section{Valutazione statistica}
+
 \chapter{Altri comandi}
 bla bla
 \section{Immagini}
